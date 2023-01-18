@@ -17,7 +17,7 @@ const CompShowBlog = () => {
 
     const getBlogs = async () => {
         const res  = await axios.get(process.env.REACT_APP_API_URL + 'blogs/')
-        setBlogs(res.data)
+        setBlogs(res.data)//simon
     }
 
     //Eliminar Blog
