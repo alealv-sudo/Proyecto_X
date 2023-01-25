@@ -10,6 +10,7 @@ import CompShowBlog from '../blog/showBlog';
 import Prueba from '../Pruebas/prueba';
 import Prueba2 from '../Pruebas/prueba2';
 import Usurio from '../Pruebas/user';
+import Publicar from '../Pruebas/post';
 
 import {
     MenuFoldOutlined,
@@ -53,6 +54,7 @@ const LayoutFront = () => {
             <Routes>
                 <Route path={'/'} exact  element={<CompShowBlog/>}/>
                 <Route path={'/user'} exact  element={<Usurio/>}/>
+                <Route path={'/post'} exact  element={<Publicar/>}/>
                 <Route path={'/prueba'} exact  element={<Prueba/>}/>
                 <Route path={'/prueba2'} exact  element={<Prueba2/>}/>
             </Routes>
