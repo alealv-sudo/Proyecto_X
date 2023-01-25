@@ -14,6 +14,7 @@ blogCTRL.getAllBlogs = async (req, res) => {
     }
 }
 
+
 //Mostrart un registro
 
 blogCTRL.getBlog = async (req, res) => {
