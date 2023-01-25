@@ -5,6 +5,7 @@ import { Menu, theme } from "antd";
 import {
     UserOutlined,
     VideoCameraOutlined,
+    PicLeftOutlined,
     UploadOutlined,
 } from '@ant-design/icons';
 
@@ -27,6 +28,11 @@ const MenuNav = () => {
                     <VideoCameraOutlined/>
                     <span>User</span>
                     <Link to="/user"></Link>         
+               </Menu.Item>
+               <Menu.Item key="/post" title="Publicar">
+                    <PicLeftOutlined />
+                    <span>Publicar</span>
+                    <Link to="/post"></Link>         
                </Menu.Item>
                <Menu.Item key="/Prueba" title="Inicio">
                     <VideoCameraOutlined/>
