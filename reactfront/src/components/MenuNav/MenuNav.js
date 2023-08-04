@@ -20,30 +20,35 @@ const MenuNav = () => {
            mode="inline"
            defaultSelectedKeys={['/']} 
            >
-               <Menu.Item key="/" title="Inicio">
+               <Menu.Item key="/private/blog" title="Inicio">
                    <UserOutlined />
                    <span>Inicio</span>
-                   <Link to="/"></Link>
+                   <Link to="/private/blog"></Link>
                </Menu.Item>
-               <Menu.Item key="/user" title="Inicio">
+               <Menu.Item key="/private/user" title="Inicio">
                     <VideoCameraOutlined/>
                     <span>User</span>
-                    <Link to="/user"></Link>         
+                    <Link to="/private/user"></Link>         
                </Menu.Item>
-               <Menu.Item key="/post" title="Publicar">
+               <Menu.Item key="/private/post" title="Publicar">
                     <PicLeftOutlined />
                     <span>Publicar</span>
-                    <Link to="/post"></Link>         
+                    <Link to="/private/post"></Link>         
                </Menu.Item>
-               <Menu.Item key="/Prueba" title="Inicio">
+               <Menu.Item key="/private/prueba" title="Inicio">
                     <VideoCameraOutlined/>
                     <span>Prueba</span>
-                    <Link to="/Prueba"></Link>         
+                    <Link to="/private/prueba"></Link>         
                </Menu.Item>
-               <Menu.Item key="/Prueba2" title="Inicio">
+               <Menu.Item key="/private/prueba2" title="Inicio">
                     <VideoCameraOutlined/>
                     <span>Prueba 2</span>
-                    <Link to="/Prueba2"></Link>         
+                    <Link to="/private/prueba2"></Link>         
+               </Menu.Item>
+               <Menu.Item key="/private/logout" title="Logout">
+                    <VideoCameraOutlined/>
+                    <span>Logout</span>
+                    <Link to="/private/logout"></Link>         
                </Menu.Item>
            </Menu>  
        </div>   

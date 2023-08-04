@@ -1,3 +1,4 @@
+import React from 'react'
 import { useAuthContext } from "../contexts/authContext";
 import { PRIVATE } from "../../config/routes/paths";
 import { Navigate, Outlet } from "react-router-dom";
